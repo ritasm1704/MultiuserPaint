@@ -1,0 +1,20 @@
+Server running...
+ServerIP: 0.0.0.0/0.0.0.0 listen port: 1111
+Connection is ready... TCPConnection: /127.0.0.1: 52952
+Connection is ready... TCPConnection: /127.0.0.1: 52953
+Connection is ready... TCPConnection: /127.0.0.1: 52954
+Connection is ready... TCPConnection: /127.0.0.1: 52955
+Connection is ready... TCPConnection: /127.0.0.1: 52956
+Connection is ready... TCPConnection: /127.0.0.1: 52957
+TCPConnection exception:java.net.SocketException: Connection reset  :  TCPConnection: /127.0.0.1: 52952
+Disconnect: TCPConnection: /127.0.0.1: 52952
+TCPConnection exception:java.net.SocketException: Connection reset  :  TCPConnection: /127.0.0.1: 52955
+Disconnect: TCPConnection: /127.0.0.1: 52955
+TCPConnection exception:java.net.SocketException: Connection reset  :  TCPConnection: /127.0.0.1: 52954
+Disconnect: TCPConnection: /127.0.0.1: 52954
+TCPConnection exception:java.net.SocketException: Connection reset  :  TCPConnection: /127.0.0.1: 52956
+Disconnect: TCPConnection: /127.0.0.1: 52956
+TCPConnection exception:java.net.SocketException: Connection reset  :  TCPConnection: /127.0.0.1: 52957
+Disconnect: TCPConnection: /127.0.0.1: 52957
+TCPConnection exception:java.net.SocketException: Connection reset  :  TCPConnection: /127.0.0.1: 52953
+Disconnect: TCPConnection: /127.0.0.1: 52953
