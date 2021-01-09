@@ -84,6 +84,11 @@ public class ClientWindow extends JFrame implements TCPConnectionListener {
             sendMeImages();
             sendMeMyAcc();
 
+        }else if (message.getCommand().equals("@noYouCannotRegistered")) {
+            System.out.println("@yesYouCanRegistered");
+            responseIsReceived1 = true;
+            isRegistered = false;
+
         } else if (message.getCommand().equals("@newImage")) {
 
             imageArchive.put(message.getImageName(), message.getImage());

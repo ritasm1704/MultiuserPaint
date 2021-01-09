@@ -9,16 +9,20 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.util.ArrayList;
 
+/**
+ * отвечает на команды клиентов, ведет журнал событий
+ */
+
 public class Server implements TCPConnectionListener {
 
-    //"C:/doc/ТП2/MultiuserPaint/log.txt"
     private final LogsWriter logsWriter;
     private final ArrayList<TCPConnection> connections = new ArrayList<>();
     private final ArrayList<Account> accountArray = new ArrayList<>();
 
     public static void main(String[] args) {
 
-        new Server(args[0]);
+        //new Server(args[0]);
+        new Server("C:/doc/ТП2/MultiuserPaint/log.txt");
     }
 
     private Server(String path) {

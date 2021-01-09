@@ -86,6 +86,7 @@ public class RegistrationPanel extends JPanel implements ActionListener {
             click++;
 
         } else if (e.getSource() == button2) {
+            window.setResponseIsReceived1(false);
 
             Account account = new Account(inputName.getText(), String.valueOf(inputPassword.getPassword()), window.getConnection());
             while (!window.getResponseIsReceived1()) {

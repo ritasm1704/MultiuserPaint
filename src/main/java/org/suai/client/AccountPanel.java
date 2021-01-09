@@ -207,9 +207,12 @@ public class AccountPanel extends JPanel implements ActionListener {
     }
 
     public void newCanvas() {
-        JButton canvas = canvases.get((count - 1) % canvases.size());
-        canvas.setVisible(false);
-        canvases.set((count - 1) % canvases.size(), canvas);
+        JButton canvas;
+        if (count != 0) {
+            canvas = canvases.get(Math.abs((count - 1) % canvases.size()));
+            canvas.setVisible(false);
+            canvases.set((count - 1) % canvases.size(), canvas);
+        }
 
         canvas = canvases.get(count % canvases.size());
         canvas.setVisible(true);

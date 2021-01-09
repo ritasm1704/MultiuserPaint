@@ -77,6 +77,7 @@ public class Panel1 extends JPanel implements ActionListener {
 
             setVisible(false);
             AccountPanel accountPanel = new AccountPanel(window);
+            accountPanel.setVisible(true);
             window.add(accountPanel);
         }
     }
